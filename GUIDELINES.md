@@ -28,8 +28,6 @@ The wordmark is the handwritten “twilic” letterforms without the square back
 
 **Do not** place the blue wordmark on the brand blue (`#36A9F8`) or similar hues without enough contrast. Use the inverted wordmark on dark backgrounds instead.
 
----
-
 ## Color
 
 ### Primary palette
@@ -48,8 +46,6 @@ Only these two colors appear in the official color assets. Do not substitute sim
 - **Wordmark (inverted) on dark gray (≤ `#333333`) or black:** preferred for dark mode and photography overlays.
 
 If the background is busy (photo, gradient, pattern), add a solid backing plate (white or dark gray at 90% opacity minimum) behind the wordmark, then apply clear space.
-
----
 
 ## Grayscale and monochrome
 
@@ -77,8 +73,6 @@ Do not use the color badge with a grayscale filter applied in design tools; rebu
 - **Do not** reduce opacity below 100% on the mark itself (background plates may use opacity).
 - **Do not** use low-contrast gray pairings (e.g. `#999` on `#BBB`).
 - **Single-color print:** use black (`#000000`) wordmark on white, or reverse (white on black) for inverted layouts.
-
----
 
 ## Clear space (exclusion zone)
 
@@ -115,8 +109,6 @@ When placing the wordmark file:
 1. Measure H from the visible letterforms after scaling.
 2. Add **1× H** beyond the ink on all sides before other content.
 
----
-
 ## Minimum size
 
 | Medium      | Badge (width) | Wordmark (ink height H) |
@@ -126,8 +118,6 @@ When placing the wordmark file:
 
 Below these sizes, strokes merge and legibility suffers. Prefer the badge only at small sizes; avoid wordmark-only below 24 px ink height.
 
----
-
 ## Scaling and file handling
 
 - **Do** scale proportionally (lock aspect ratio).
@@ -136,8 +126,6 @@ Below these sizes, strokes merge and legibility suffers. Prefer the badge only a
 - **Do not** recreate the wordmark in another typeface or hand-drawn style.
 - **Do not** add effects (glow, bevel, emboss, 3D, animation that distorts the paths).
 - **Do not** rearrange, abbreviate, or pair with other logotypes in a single lockup without approval.
-
----
 
 ## Backgrounds
 
@@ -149,8 +137,6 @@ Below these sizes, strokes merge and legibility suffers. Prefer the badge only a
 | Photography / busy | Wordmark inverted or normal on a solid plate + clear space |
 | Print, grayscale | See [Grayscale and monochrome](#grayscale-and-monochrome) |
 
----
-
 ## Misuse (do not)
 
 - Change hex values or apply gradients to the mark.
@@ -158,8 +144,6 @@ Below these sizes, strokes merge and legibility suffers. Prefer the badge only a
 - Crop through letterforms or clear space.
 - Use outdated or unofficial artwork.
 - Use the logo to imply endorsement without permission.
-
----
 
 ## Asset dimensions
 
@@ -170,13 +154,9 @@ All SVGs share `viewBox="0 0 2000 2000"` for interchangeable sizing in templates
 | Wordmark | 1600 × 580 px, centered horizontally         |
 | Badge    | Same wordmark placement on full-bleed square |
 
----
-
 ## Updates
 
 This media kit may gain additional formats (PNG exports, social templates). The files in [`logo/`](logo/) remain the source of truth.
-
----
 
 ## License
 
