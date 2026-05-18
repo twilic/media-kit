@@ -1,0 +1,65 @@
+# Twilic Media Kit — Licensing
+
+Copyright (c) 2026 Twilic (maintained by Minagishl)
+
+This repository contains two kinds of material with different terms. Read the section that applies to what you are using.
+
+---
+
+## 1. Logo and wordmark assets (`logo/`)
+
+The SVG files under `logo/` are **Twilic brand assets**. They are **not** open source in the same sense as software in the Twilic code repositories.
+
+### Permitted use
+
+You may copy and display these assets only when **all** of the following apply:
+
+- Your use follows [`GUIDELINES.md`](GUIDELINES.md).
+- Your use truthfully identifies Twilic, its format, or its open-source projects (for example in documentation, README files, conference slides, or social posts about Twilic).
+- You do **not** modify the artwork except for **proportional scaling** and export to raster formats (PNG, PDF, and similar) at appropriate resolution.
+- You do **not** use the assets in a way that suggests endorsement, partnership, certification, or sponsorship by Twilic without prior written permission.
+- You do **not** use the assets as your own product name, app icon for an unrelated product, or the primary branding of a third-party project.
+
+### Reserved rights
+
+- **Trademark:** This repository does **not** grant trademark rights. “Twilic” and the Twilic logos remain trademarks of the project maintainers. All goodwill from use of the marks accrues to Twilic.
+- **No transfer:** No ownership of the artwork or marks is transferred to you.
+- **Revocation:** Permitted use may be withdrawn for uses that violate these terms or [`GUIDELINES.md`](GUIDELINES.md).
+
+### Suggested attribution
+
+When space allows, include a credit such as:
+
+```text
+Twilic logo © Twilic — used under the Twilic media kit guidelines.
+```
+
+Link to this repository or to [`GUIDELINES.md`](GUIDELINES.md) when publishing online.
+
+---
+
+## 2. Documentation and diagrams
+
+The following are licensed under **[Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)** (CC BY 4.0):
+
+- `README.md`
+- `GUIDELINES.md`
+- `CONTRIBUTING.md`
+- `LICENSE` (this file)
+- Files under `diagrams/` (clear-space and other guideline illustrations)
+
+You may share and adapt this material if you give appropriate credit, link to CC BY 4.0, and note changes. The full legal code is in [`LICENSE-CC-BY-4.0.txt`](LICENSE-CC-BY-4.0.txt).
+
+**Note:** Diagrams may depict Twilic logos for explanation. Extracting or reusing those logo depictions outside the diagram (for example copying only the wordmark from a diagram file) is governed by **Section 1** above, not by CC BY alone.
+
+---
+
+## 3. Disclaimer
+
+Logo assets and documentation are provided **“as is”**, without warranty of any kind. To the fullest extent permitted by law, the licensors disclaim liability for damages arising from use of this repository.
+
+---
+
+## 4. Questions
+
+For uses not covered here (merchandise, co-branding, modified logos, or commercial campaigns), open an issue in this repository or contact the [Twilic organization](https://github.com/twilic) before publishing.
