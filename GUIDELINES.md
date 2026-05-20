@@ -156,7 +156,7 @@ All SVGs share `viewBox="0 0 2000 2000"` for interchangeable sizing in templates
 
 ## Updates
 
-This media kit may gain additional formats (PNG exports, social templates). The files in [`logo/`](logo/) remain the source of truth.
+PNG exports at **2000×2000 px** ship alongside each logo SVG in [`logo/`](logo/). Regenerate them with `pnpm export:png` after SVG changes. The SVG files remain the source of truth.
 
 ## License
 

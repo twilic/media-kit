@@ -8,10 +8,10 @@ Use these files when you mention Twilic in documentation, presentations, social 
 
 | Path | Description |
 | --- | --- |
-| [`logo/badge/normal.svg`](logo/badge/normal.svg) | Square badge — brand blue background, white wordmark |
-| [`logo/badge/inverted.svg`](logo/badge/inverted.svg) | Square badge — white background, brand blue wordmark |
-| [`logo/wordmark/normal.svg`](logo/wordmark/normal.svg) | Wordmark only — brand blue on transparent |
-| [`logo/wordmark/inverted.svg`](logo/wordmark/inverted.svg) | Wordmark only — white on transparent (for dark backgrounds) |
+| [`logo/badge/normal.svg`](logo/badge/normal.svg) / [`.png`](logo/badge/normal.png) | Square badge — brand blue background, white wordmark |
+| [`logo/badge/inverted.svg`](logo/badge/inverted.svg) / [`.png`](logo/badge/inverted.png) | Square badge — white background, brand blue wordmark |
+| [`logo/wordmark/normal.svg`](logo/wordmark/normal.svg) / [`.png`](logo/wordmark/normal.png) | Wordmark only — brand blue on transparent |
+| [`logo/wordmark/inverted.svg`](logo/wordmark/inverted.svg) / [`.png`](logo/wordmark/inverted.png) | Wordmark only — white on transparent (for dark backgrounds) |
 | [`GUIDELINES.md`](GUIDELINES.md) | Full brand rules: color, spacing, grayscale, minimum size, and misuse |
 | [`diagrams/`](diagrams/) | Clear-space diagrams (unit **H**, badge **12.5% W**) referenced in the guidelines |
 
@@ -19,10 +19,10 @@ Use these files when you mention Twilic in documentation, presentations, social 
 
 | Variant | File | Use when |
 | --- | --- | --- |
-| Badge (normal) | `logo/badge/normal.svg` | Default avatar, app icon, square placements on neutral or light layouts |
-| Badge (inverted) | `logo/badge/inverted.svg` | Square placements on saturated or dark layouts where the blue badge lacks contrast |
-| Wordmark (normal) | `logo/wordmark/normal.svg` | Headers, README banners, inline mentions on light backgrounds |
-| Wordmark (inverted) | `logo/wordmark/inverted.svg` | Headers and inline mentions on dark or photographic backgrounds |
+| Badge (normal) | `logo/badge/normal.svg` or `.png` | Default avatar, app icon, square placements on neutral or light layouts |
+| Badge (inverted) | `logo/badge/inverted.svg` or `.png` | Square placements on saturated or dark layouts where the blue badge lacks contrast |
+| Wordmark (normal) | `logo/wordmark/normal.svg` or `.png` | Headers, README banners, inline mentions on light backgrounds |
+| Wordmark (inverted) | `logo/wordmark/inverted.svg` or `.png` | Headers and inline mentions on dark or photographic backgrounds |
 
 **Brand blue:** `#36A9F8`  
 **Wordmark white:** `#FFFFFF`
@@ -32,7 +32,7 @@ Use these files when you mention Twilic in documentation, presentations, social 
 1. Read [`GUIDELINES.md`](GUIDELINES.md) before publishing.
 2. Pick the variant that matches your background (see table above).
 3. Keep [clear space](GUIDELINES.md#clear-space-exclusion-zone) around the logo.
-4. Export to PNG or other raster formats from the SVG source at the size you need; do not upscale beyond 2× the source pixel dimensions.
+4. Use the bundled **2000×2000 px** PNG exports when you need raster assets, or run `pnpm export:png` to regenerate them from SVG. Do not upscale beyond 2× (4000 px) the master dimensions.
 
 ## License
 
@@ -53,6 +53,7 @@ Markdown in this repository is formatted and linted with Prettier and markdownli
 pnpm install
 pnpm format
 pnpm lint
+pnpm export:png   # after changing logo SVGs
 ```
 
 ## Questions

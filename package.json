@@ -3,12 +3,14 @@
   "private": true,
   "packageManager": "pnpm@10.33.2",
   "scripts": {
+    "export:png": "node scripts/export-png.mjs",
     "format": "prettier --write \"{README.md,GUIDELINES.md,CONTRIBUTING.md,LICENSE}\"",
     "format:check": "prettier --check \"{README.md,GUIDELINES.md,CONTRIBUTING.md,LICENSE}\"",
     "lint": "markdownlint-cli2 \"{README.md,GUIDELINES.md,CONTRIBUTING.md,LICENSE}\"",
     "prepare": "husky"
   },
   "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
     "husky": "^9.1.7",

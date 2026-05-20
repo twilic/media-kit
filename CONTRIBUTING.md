@@ -12,6 +12,7 @@ This repository holds official logo assets and brand guidelines. Changes should 
 - Prefer ASCII unless an existing file requires another character set.
 - Do not alter logo paths, colors, or proportions outside the rules in `GUIDELINES.md`.
 - When clear-space rules change, update both `GUIDELINES.md` and the diagrams in `diagrams/`.
+- After changing logo SVGs, run `pnpm export:png` and commit the updated PNG files.
 
 ## Formatting
 
